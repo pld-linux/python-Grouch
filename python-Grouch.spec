@@ -1,4 +1,4 @@
-# $Revision: 1.2 $ $Date: 2004-05-28 18:36:44 $
+# $Revision: 1.3 $ $Date: 2004-05-28 18:38:44 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	Grouch
@@ -33,18 +33,18 @@ system in other ways as well.
 
 %description -l pl
 Grouch jest systemem opisu i wymuszania zachowania schematu obiektów
-Pythona. Schemta obiektów opisuje ka¿d± klasê kolekcji obiektów - w
+Pythona. Schemat obiektów opisuje ka¿d± klasê kolekcji obiektów - w
 szczególno¶ci specyfikuje typ ka¿dej instancji atrybutu ka¿dej z klas.
 Grouch zawiera jêzyk typów umo¿liwiaj±cy specyfikowanie typów
 atrybutów. Zawiera te¿ narzêdzie pozwalaj±ce na parsowanie odpowiednio
 sformatowanych ³añcuchów dokumentuj±cych oraz utworzenie kompletnego
 schematu obiektów. W sk³ad Grouch wchodzi te¿ narzêdzie potrafi±ce
-przeanlizowaæ sta³y graf obiektów w celu stwierdzenia, czy ka¿dy
-element danych jest zgodny ze schematem danych wyekstrahowanym w
+przeanalizowaæ sta³y graf obiektów w celu stwierdzenia, czy ka¿dy
+element danych jest zgodny ze schematem danych wyekstrahowanym z
 ³añcuchów dokumentuj±cych w klasach. API umo¿liwij±ce definiowanie,
 odpytywanie oraz utrzymywanie typów jest kompletne i dobrze
-udokumentowane, wiêc system typów Groucha mo¿e te¿ byæ u¿yty w innych
-celach.
+udokumentowane, system typów Groucha mo¿e wiêc byæ u¿yty do innych
+celów.
 
 %package doc
 Summary:	Documentation for Grouch module
