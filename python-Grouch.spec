@@ -1,16 +1,16 @@
-# $Revision: 1.4 $ $Date: 2004-07-28 08:03:16 $
+# $Revision: 1.5 $ $Date: 2004-08-02 05:44:37 $
 
 %define 	module	Grouch
 
 Summary:	System for describing and enforcing a Python object schema
 Summary(pl):	System opisu i wymuszania schematu obiektów Pythona
 Name:		python-%{module}
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	CNRI
 Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}.tar.gz
-# Source0-md5:	e77292f3c9e0f5b02a06f592202c0960
+# Source0-md5:	37d970a0bb13dcb7c764624fc8bffe93
 URL:		http://www.mems-exchange.org/software/grouch/
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
@@ -105,7 +105,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.txt
+%doc CHANGES.txt README.txt
 %{py_sitescriptdir}/grouch
 
 %files doc
