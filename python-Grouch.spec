@@ -1,6 +1,5 @@
-# $Revision: 1.3 $ $Date: 2004-05-28 18:38:44 $
+# $Revision: 1.4 $ $Date: 2004-07-28 08:03:16 $
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	Grouch
 
 Summary:	System for describing and enforcing a Python object schema
