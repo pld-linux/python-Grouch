@@ -1,4 +1,4 @@
-# $Revision: 1.5 $ $Date: 2004-08-02 05:44:37 $
+# $Revision: 1.6 $ $Date: 2004-10-24 21:04:48 $
 
 %define 	module	Grouch
 
@@ -40,7 +40,7 @@ sformatowanych ³añcuchów dokumentuj±cych oraz utworzenie kompletnego
 schematu obiektów. W sk³ad Grouch wchodzi te¿ narzêdzie potrafi±ce
 przeanalizowaæ sta³y graf obiektów w celu stwierdzenia, czy ka¿dy
 element danych jest zgodny ze schematem danych wyekstrahowanym z
-³añcuchów dokumentuj±cych w klasach. API umo¿liwij±ce definiowanie,
+³añcuchów dokumentuj±cych w klasach. API umo¿liwiaj±ce definiowanie,
 odpytywanie oraz utrzymywanie typów jest kompletne i dobrze
 udokumentowane, system typów Groucha mo¿e wiêc byæ u¿yty do innych
 celów.
