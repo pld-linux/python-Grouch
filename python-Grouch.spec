@@ -1,4 +1,4 @@
-# $Revision: 1.1 $ $Date: 2004-05-28 18:35:48 $
+# $Revision: 1.2 $ $Date: 2004-05-28 18:36:44 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	Grouch
@@ -19,29 +19,32 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Grouch is a system for describing and enforcing a Python object schema.
-An object schema describes every class in a collection of objects -- in
-particular, it specifies the type of every instance attribute of every
-class. Grouch includes a type language for specifying attribute types, a
-tool to parse specially-formatted class docstrings and output a complete
-object schema, and another tool for walking a persistent object graph and
-ensuring that every scrap of data in it conforms to the object schema
-extracted from your class docstrings. The API for defining, querying, and
-enforcing types is fairly complete and well-documented, so you can use
-Grouch's type system in other ways as well.
+Grouch is a system for describing and enforcing a Python object
+schema. An object schema describes every class in a collection of
+objects -- in particular, it specifies the type of every instance
+attribute of every class. Grouch includes a type language for
+specifying attribute types, a tool to parse specially-formatted class
+docstrings and output a complete object schema, and another tool for
+walking a persistent object graph and ensuring that every scrap of
+data in it conforms to the object schema extracted from your class
+docstrings. The API for defining, querying, and enforcing types is
+fairly complete and well-documented, so you can use Grouch's type
+system in other ways as well.
 
 %description -l pl
-Grouch jest systemem opisu i wymuszania zachowania schematu obiektów Pythona.
-Schemta obiektów opisuje ka¿d± klasê kolekcji obiektów - w szczególno¶ci
-specyfikuje typ ka¿dej instancji atrybutu ka¿dej z klas. Grouch zawiera jêzyk
-typów umo¿liwiaj±cy specyfikowanie typów atrybutów. Zawiera te¿ narzêdzie
-pozwalaj±ce na parsowanie odpowiednio sformatowanych ³añcuchów dokumentuj±cych
-oraz utworzenie kompletnego schematu obiektów. W sk³ad Grouch wchodzi te¿
-narzêdzie potrafi±ce przeanlizowaæ sta³y graf obiektów w celu stwierdzenia,
-czy ka¿dy element danych jest zgodny ze schematem danych wyekstrahowanym
-w ³añcuchów dokumentuj±cych w klasach. API umo¿liwij±ce definiowanie,
-odpytywanie oraz utrzymywanie typów jest kompletne i dobrze udokumentowane,
-wiêc system typów Groucha mo¿e te¿ byæ u¿yty w innych celach.
+Grouch jest systemem opisu i wymuszania zachowania schematu obiektów
+Pythona. Schemta obiektów opisuje ka¿d± klasê kolekcji obiektów - w
+szczególno¶ci specyfikuje typ ka¿dej instancji atrybutu ka¿dej z klas.
+Grouch zawiera jêzyk typów umo¿liwiaj±cy specyfikowanie typów
+atrybutów. Zawiera te¿ narzêdzie pozwalaj±ce na parsowanie odpowiednio
+sformatowanych ³añcuchów dokumentuj±cych oraz utworzenie kompletnego
+schematu obiektów. W sk³ad Grouch wchodzi te¿ narzêdzie potrafi±ce
+przeanlizowaæ sta³y graf obiektów w celu stwierdzenia, czy ka¿dy
+element danych jest zgodny ze schematem danych wyekstrahowanym w
+³añcuchów dokumentuj±cych w klasach. API umo¿liwij±ce definiowanie,
+odpytywanie oraz utrzymywanie typów jest kompletne i dobrze
+udokumentowane, wiêc system typów Groucha mo¿e te¿ byæ u¿yty w innych
+celach.
 
 %package doc
 Summary:	Documentation for Grouch module
@@ -50,8 +53,7 @@ Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
-This package contains documentation files for Grouch Python
-module.
+This package contains documentation files for Grouch Python module.
 
 %description doc -l pl
 Pakiet zawieraj±cy dokumentacjê dla modu³u Pythona Grouch.
