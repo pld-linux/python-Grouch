@@ -1,4 +1,4 @@
-# $Revision: 1.6 $ $Date: 2004-10-24 21:04:48 $
+# $Revision: 1.7 $ $Date: 2004-11-27 19:01:23 $
 
 %define 	module	Grouch
 
@@ -12,7 +12,7 @@ Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}.tar.gz
 # Source0-md5:	37d970a0bb13dcb7c764624fc8bffe93
 URL:		http://www.mems-exchange.org/software/grouch/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
