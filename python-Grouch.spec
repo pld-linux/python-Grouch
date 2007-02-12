@@ -1,9 +1,9 @@
-# $Revision: 1.8 $ $Date: 2004-12-17 16:44:52 $
+# $Revision: 1.9 $ $Date: 2007-02-12 01:06:28 $
 
 %define 	module	Grouch
 
 Summary:	System for describing and enforcing a Python object schema
-Summary(pl):	System opisu i wymuszania schematu obiektów Pythona
+Summary(pl.UTF-8):   System opisu i wymuszania schematu obiektÃ³w Pythona
 Name:		python-%{module}
 Version:	0.4
 Release:	1
@@ -31,56 +31,56 @@ docstrings. The API for defining, querying, and enforcing types is
 fairly complete and well-documented, so you can use Grouch's type
 system in other ways as well.
 
-%description -l pl
-Grouch jest systemem opisu i wymuszania zachowania schematu obiektów
-Pythona. Schemat obiektów opisuje ka¿d± klasê kolekcji obiektów - w
-szczególno¶ci specyfikuje typ ka¿dej instancji atrybutu ka¿dej z klas.
-Grouch zawiera jêzyk typów umo¿liwiaj±cy specyfikowanie typów
-atrybutów. Zawiera te¿ narzêdzie pozwalaj±ce na parsowanie odpowiednio
-sformatowanych ³añcuchów dokumentuj±cych oraz utworzenie kompletnego
-schematu obiektów. W sk³ad Grouch wchodzi te¿ narzêdzie potrafi±ce
-przeanalizowaæ sta³y graf obiektów w celu stwierdzenia, czy ka¿dy
+%description -l pl.UTF-8
+Grouch jest systemem opisu i wymuszania zachowania schematu obiektÃ³w
+Pythona. Schemat obiektÃ³w opisuje kaÅ¼dÄ… klasÄ™ kolekcji obiektÃ³w - w
+szczegÃ³lnoÅ›ci specyfikuje typ kaÅ¼dej instancji atrybutu kaÅ¼dej z klas.
+Grouch zawiera jÄ™zyk typÃ³w umoÅ¼liwiajÄ…cy specyfikowanie typÃ³w
+atrybutÃ³w. Zawiera teÅ¼ narzÄ™dzie pozwalajÄ…ce na parsowanie odpowiednio
+sformatowanych Å‚aÅ„cuchÃ³w dokumentujÄ…cych oraz utworzenie kompletnego
+schematu obiektÃ³w. W skÅ‚ad Grouch wchodzi teÅ¼ narzÄ™dzie potrafiÄ…ce
+przeanalizowaÄ‡ staÅ‚y graf obiektÃ³w w celu stwierdzenia, czy kaÅ¼dy
 element danych jest zgodny ze schematem danych wyekstrahowanym z
-³añcuchów dokumentuj±cych w klasach. API umo¿liwiaj±ce definiowanie,
-odpytywanie oraz utrzymywanie typów jest kompletne i dobrze
-udokumentowane, system typów Groucha mo¿e wiêc byæ u¿yty do innych
-celów.
+Å‚aÅ„cuchÃ³w dokumentujÄ…cych w klasach. API umoÅ¼liwiajÄ…ce definiowanie,
+odpytywanie oraz utrzymywanie typÃ³w jest kompletne i dobrze
+udokumentowane, system typÃ³w Groucha moÅ¼e wiÄ™c byÄ‡ uÅ¼yty do innych
+celÃ³w.
 
 %package doc
 Summary:	Documentation for Grouch module
-Summary(pl):	Dokumentacja do modu³u Grouch
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This package contains documentation files for Grouch Python module.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjê dla modu³u Pythona Grouch.
+%description doc -l pl.UTF-8
+Pakiet zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona Grouch.
 
 %package examples
 Summary:	Examples for Grouch module
-Summary(pl):	Przyk³ady do modu³u Grouch
+Summary(pl.UTF-8):   PrzykÅ‚ady do moduÅ‚u Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
 This package contains example files for Grouch Python module.
 
-%description examples -l pl
-Pakiet zawieraj±cy przyk³adowe skrypty dla modu³u Pythona Grouch.
+%description examples -l pl.UTF-8
+Pakiet zawierajÄ…cy przykÅ‚adowe skrypty dla moduÅ‚u Pythona Grouch.
 
 %package utils
 Summary:	Utils for Grouch module
-Summary(pl):	Narzêdzia do modu³u Grouch
+Summary(pl.UTF-8):   NarzÄ™dzia do moduÅ‚u Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description utils
 This package contains utility files for Grouch Python module.
 
-%description utils -l pl
-Pakiet zawieraj±cy programy narzêdziowe dla modu³u Pythona Grouch.
+%description utils -l pl.UTF-8
+Pakiet zawierajÄ…cy programy narzÄ™dziowe dla moduÅ‚u Pythona Grouch.
 
 %prep
 %setup -q -n %{module}-%{version}
