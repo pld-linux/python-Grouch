@@ -1,9 +1,9 @@
-# $Revision: 1.9 $ $Date: 2007-02-12 01:06:28 $
+# $Revision: 1.10 $ $Date: 2007-02-13 08:06:42 $
 
 %define 	module	Grouch
 
 Summary:	System for describing and enforcing a Python object schema
-Summary(pl.UTF-8):   System opisu i wymuszania schematu obiektów Pythona
+Summary(pl.UTF-8):	System opisu i wymuszania schematu obiektów Pythona
 Name:		python-%{module}
 Version:	0.4
 Release:	1
@@ -48,7 +48,7 @@ celów.
 
 %package doc
 Summary:	Documentation for Grouch module
-Summary(pl.UTF-8):   Dokumentacja do modułu Grouch
+Summary(pl.UTF-8):	Dokumentacja do modułu Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -60,7 +60,7 @@ Pakiet zawierający dokumentację dla modułu Pythona Grouch.
 
 %package examples
 Summary:	Examples for Grouch module
-Summary(pl.UTF-8):   Przykłady do modułu Grouch
+Summary(pl.UTF-8):	Przykłady do modułu Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -72,7 +72,7 @@ Pakiet zawierający przykładowe skrypty dla modułu Pythona Grouch.
 
 %package utils
 Summary:	Utils for Grouch module
-Summary(pl.UTF-8):   Narzędzia do modułu Grouch
+Summary(pl.UTF-8):	Narzędzia do modułu Grouch
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
