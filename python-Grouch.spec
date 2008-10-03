@@ -1,4 +1,4 @@
-# $Revision: 1.10 $ $Date: 2007-02-13 08:06:42 $
+# $Revision: 1.11 $ $Date: 2008-10-03 17:50:39 $
 
 %define 	module	Grouch
 
@@ -6,7 +6,7 @@ Summary:	System for describing and enforcing a Python object schema
 Summary(pl.UTF-8):	System opisu i wymuszania schematu obiektów Pythona
 Name:		python-%{module}
 Version:	0.4
-Release:	1
+Release:	2
 License:	CNRI
 Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}.tar.gz
