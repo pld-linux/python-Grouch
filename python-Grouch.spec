@@ -1,4 +1,4 @@
-# $Revision: 1.12 $ $Date: 2010-07-08 08:13:40 $
+# $Revision: 1.13 $ $Date: 2011-01-23 21:14:25 $
 
 %define 	module	Grouch
 
@@ -14,6 +14,7 @@ Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}
 URL:		http://www.mems-exchange.org/software/grouch/
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
