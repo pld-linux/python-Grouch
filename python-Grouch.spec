@@ -1,4 +1,3 @@
-# $Revision: 1.13 $ $Date: 2011-01-23 21:14:25 $
 
 %define 	module	Grouch
 
