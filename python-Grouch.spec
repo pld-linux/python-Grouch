@@ -5,7 +5,7 @@ Summary:	System for describing and enforcing a Python object schema
 Summary(pl.UTF-8):	System opisu i wymuszania schematu obiektów Pythona
 Name:		python-%{module}
 Version:	0.4
-Release:	3
+Release:	4
 License:	CNRI
 Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}.tar.gz
