@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/grouch/%{module}-%{version}.tar.gz
 # Source0-md5:	02d4894bff29a5c862ddf959fd0da16e
 URL:		http://www.mems-exchange.org/software/grouch/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
